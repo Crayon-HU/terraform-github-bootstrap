@@ -1,0 +1,13 @@
+<!-- markdownlint-disable-file MD033 MD012 -->
+# terraform-github-bootstrap
+Crayon Hungary Github Bootstrap Module
+
+This module were created by [Crayon Hungary](https://www.crayon.com/hu/) IaC enthusiasts.
+
+## About This Module
+This module has been mainly designed and developed to bootstrap terraform module repositories, however it can be used for any github repository.
+
+## How to Use This Modul
+- Ensure Github credentials are [in place](https://registry.terraform.io/providers/integrations/github/latest/docs#authentication)
+- Owner role or equivalent is required!
+- Create a Terraform configuration that pulls in this module and specifies values for the required variables.
